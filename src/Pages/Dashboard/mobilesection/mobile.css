@@ -1,0 +1,158 @@
+.modile-container {
+    height: 120vh;
+    width: 100%;
+}
+
+.mobile-images {
+    margin-left: 31%;
+    height: 70%;
+    width: 70%;
+}
+
+
+.main-mobile-div {
+    margin-top: -27%;
+    margin-left: 1%;
+}
+
+.mobile-text-div h1 {
+    font-family: 'Livvic';
+    font-size: 76px;
+    font-weight: 700;
+    line-height: 87px;
+
+}
+
+.mobile-text-div p {
+    font-family: Livvic;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #9393A0;
+
+}
+
+
+.image-apps-div {
+    width: 362px;
+    height: 52px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.apple-image-div {
+    width: 173px;
+    border-radius: 10px;
+    border: 0.5px solid lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.apple-image-div img {
+    height: 80%;
+    width: 80%;
+}
+
+
+.playstore-image-div {
+    width: 173px;
+    height: 52px;
+    border-radius: 10px;
+    border: 0.5px solid lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.playstore-image-div img {
+    height: 80%;
+    width: 80%;
+}
+
+.qrcode {
+    margin-top: 4%;
+}
+
+@media (max-width: 768px) {
+    .mobile-images {
+        margin-left: -2%;
+        height: 50vh;
+        width: 100%;
+    }
+
+    .mobile-text-div{
+        margin-top: 30%;
+    }
+
+    .mobile-text-div h1 {
+        font-family: 'Livvic';
+        font-size: 60px;
+        font-weight: 700;
+        line-height: 87px;
+    
+    }
+
+    .mobile-text-div p {
+        font-family: Livvic;
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 33px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #9393A0;
+    
+    }
+}
+
+
+@media (max-width: 415px) {
+    .mobile-images {
+        margin-left: 1%;
+        height: 30vh;
+        width: 100%;
+        margin-top: 5%;
+    }
+
+    .mobile-text-div{
+        margin-top: 40%;
+        
+    }
+
+    .mobile-text-div h1 {
+        font-family: 'Livvic';
+        font-size: 50px;
+        font-weight: 700;
+        line-height: 65px;
+    
+    }
+
+    .mobile-text-div p {
+        font-family: Livvic;
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 33px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #9393A0;
+    
+    }
+
+    .image-apps-div {
+        width: 362px;
+        height: 52px;
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 10%;
+    
+    }
+
+    .qrcode {
+        margin-top: 8%;
+    }
+}

@@ -1,0 +1,139 @@
+.contact-us-container{
+    width: 1440px;
+height: 373px;
+margin-top: 5%;
+
+}
+
+.social-media-logos{
+    width: 140px;
+height: 40px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+margin-top: 8%;
+
+}
+
+.fb-img{
+    width: 30px;
+    height: 30px;
+
+}
+
+.twitter-img{
+    margin-top: 8%;
+    width: 45px;
+    height: 45px;
+}
+
+.contact-first-col p{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 5%;
+    
+}
+
+.address-parent{
+    width: 450px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+.email-parent{
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+
+}
+
+.phone-parent{
+    width: 150px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+
+}
+
+.address-parent-img{
+    width: 16.88px;
+height: 24.01px;
+
+}
+
+.email-parent-img{
+    width: 16.88px;
+height: 24.01px;
+
+}
+
+.phone-parent-img{
+    width: 16.88px;
+height: 24.01px;
+
+}
+
+.About-Atricent ul li {
+    margin-top: 4%;
+}
+
+@media (max-width: 768px) {
+    .contact-us-container {
+      margin-top: 30%;
+    }
+
+    .contact-first-col{
+        width: 100%;
+        /* border:  1px solid rebeccapurple; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .social-media-logos{
+    margin-top: 0%;
+    
+    }
+  }
+
+
+  @media (max-width: 768px) {
+    .contact-us-container {
+      margin-top: 30%;
+    }
+
+    .contact-first-col{
+        width: 100%;
+        /* border:  1px solid rebeccapurple; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .social-media-logos{
+    margin-top: 0%;
+    
+    }
+  }
+
+  
+  @media (max-width: 415px) {
+    .contact-us-container {
+      margin-top: 1%;
+    }
+
+    .contact-first-col{
+        width: 100%;
+        /* border:  1px solid rebeccapurple; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .social-media-logos{
+    margin-top: 0%;
+    
+    }
+  }
