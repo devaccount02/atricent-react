@@ -46,6 +46,7 @@
 
 .apple-image-div {
     width: 173px;
+    height: 52px;
     border-radius: 10px;
     border: 0.5px solid lightgray;
     display: flex;
