@@ -1,0 +1,210 @@
+.email-container {
+    width: 1320px;
+    height: 417px;
+    border-radius: 50px;
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../../../assets/images/Rectangle\ 18916.png');
+    background-color: gray;
+    background-blend-mode: multiply;
+    background-size: 100% 100%;
+
+}
+
+.main-email-row {
+    width: 953px;
+    height: 277px;
+    display: flex;
+    justify-content: center;
+    color: wheat;
+
+
+}
+
+.main-email-row-first {
+    height: 30%;
+    width: 100%;
+    text-align: center;
+    /* border: 2px solid rgb(49, 45, 110); */
+
+}
+
+.main-email-row-first h1 {
+    font-family: Livvic;
+    font-size: 49px;
+    font-weight: 700;
+    line-height: 87px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    /* color: white; */
+
+}
+
+.main-email-row-second {
+    height: 30%;
+    width: 100%;
+    /* border: 2px solid rgb(173, 33, 143); */
+
+    
+}
+
+.main-email-row-second p {
+    font-family: Livvic;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+    /* border: 2px solid red; */
+
+
+}
+
+.main-email-row-third {
+    height: 60px;
+    width: 100%;
+    /* border: 2px solid rgb(12, 81, 102); */
+}
+
+.email-placeholder {
+    width: 30%;
+    border-radius: 70px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px solid rgb(31, 148, 70); */
+
+}
+
+.email-txt {
+    color: black;
+    font-family: Livvic;
+    font-size: 25px;
+    font-weight: 500;
+    margin-left: 5%;
+}
+
+.email-btn {
+    width: 121px;
+    height: 50px;
+    border-radius: 70px;
+    background-color: black;
+    color: white;
+
+}
+
+
+@media (max-width: 768px) {
+    .email-container {
+        width: 100%;
+        height: 40vh;
+        border-radius: 50px;
+        margin-top: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url('../../../assets/images/Rectangle\ 18916.png');
+        background-color: gray;
+        background-blend-mode: multiply;
+        background-size: 100% 100%;
+    
+    }
+
+    .main-email-row-first h1 {
+        font-family: Livvic;
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 100px;
+        letter-spacing: 0em;
+        text-align: center;
+    
+    
+    }
+
+    
+.main-email-row-second {
+    height: 30%;
+    width: 100%;
+    /* border: 2px solid rgb(173, 33, 143); */
+
+    
+}
+
+.main-email-row-second p {
+    font-family: Livvic;
+    font-size: 17px;
+    font-weight: 100;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+
+}
+
+.main-email-row-third {
+    height: 50px;
+    width: 50%;
+    /* border: 2px solid rgb(12, 81, 102); */
+    margin-top: -5%;
+}
+
+.email-placeholder {
+    width: 50%;
+    height: 30px;
+    border-radius: 70px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px solid rgb(31, 148, 70); */
+
+}
+
+.email-txt {
+    color: black;
+    font-family: Livvic;
+    font-size: 16px;
+    font-weight: 100;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+.email-btn {
+    width: 80px;
+    height: 20px;
+    border-radius: 11px;
+    background-color: black;
+    color: white;
+    font-size: smaller;
+
+}
+}
+
+@media (max-width: 415px) {
+    .main-email-row-first h1 {
+        font-family: Livvic;
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: center;
+    
+    
+    }
+
+    .main-email-row-second p {
+        font-family: Livvic;
+        font-size: 17px;
+        font-weight: 100;
+        line-height: 18px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: white;
+    
+    }
+}

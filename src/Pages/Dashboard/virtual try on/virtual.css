@@ -1,0 +1,60 @@
+.heading-virtual {
+    /* font-family: cursive; */
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 73px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.virtualText-p {
+    font-family: "Livvic";
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.girl-section {
+    flex: 0.7;
+}
+
+.background-cropper{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-image: url("../../../assets/images/Rectangle\ 16.png");
+
+}
+
+@media (max-width: 768px) {
+    
+
+    .virtualText-p {
+        width: 50%;
+        font-family: "Livvic";
+        font-size: 15px;
+        font-weight: 400;
+        line-height:26px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-left: 27%;
+
+    }
+
+    .heading-virtual {
+        font-family: 'Livvic';
+        font-size: 35px;
+        font-weight: 700;
+        line-height: 50px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-left: 27%;
+
+    }
+
+    .girl-section {
+        flex: 0.8;
+    }
+}
