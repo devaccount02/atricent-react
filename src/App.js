@@ -5,7 +5,6 @@ import React from 'react'
 import './App.css';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Welcome from './Pages/Welcome';
 import PrivacyPolicy from './Pages/PrivacyPolicy';
 import EULA from './Pages/EULA';
 import EmptyLayout from './Layouts/EmptyLayout';
@@ -17,8 +16,7 @@ const App = () => {
   return (
     <Router>
       <Routes>
-        <Route index element={<Welcome />} />
-        <Route path='/home' element={<Dashboard />} />
+        <Route index element={<Dashboard />} />
         <Route path='/apps' element={<Redirection />} />
         <Route path="/" element={<EmptyLayout />} >
           <Route path='/privacy-policy' element={<PrivacyPolicy />} />
@@ -27,9 +25,6 @@ const App = () => {
       </Routes>
     </Router>
   )
-
-
-
 
 }
 export default App;

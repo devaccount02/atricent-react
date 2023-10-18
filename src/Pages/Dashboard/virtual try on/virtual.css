@@ -1,26 +1,31 @@
 .heading-virtual {
-    /* font-family: cursive; */
-    font-size: 64px;
+    font-family: Livvic;
+    font-size: 50px;
     font-weight: 700;
     line-height: 73px;
     letter-spacing: 0em;
     text-align: left;
+    -webkit-text-stroke: 3px;
+    margin-left: 2%;
+    margin-top: -5px;
 }
 
 .virtualText-p {
-    font-family: "Livvic";
-    font-size: 25px;
-    font-weight: 400;
+    font-family: Livvic;
+    font-size: 20px;
+    font-weight: 600;
     line-height: 36px;
     letter-spacing: 0em;
     text-align: left;
+    -webkit-text-stroke: 0.5px;
+    margin-top: 1px;
 }
 
 .girl-section {
     flex: 0.7;
 }
 
-.background-cropper{
+.background-cropper {
     height: 100%;
     width: 100%;
     position: relative;
@@ -29,32 +34,33 @@
 }
 
 @media (max-width: 768px) {
-    
+
 
     .virtualText-p {
         width: 50%;
         font-family: "Livvic";
-        font-size: 15px;
+        font-size: 12px;
         font-weight: 400;
-        line-height:26px;
+        line-height: 26px;
         letter-spacing: 0em;
         text-align: left;
-        margin-left: 27%;
+        margin-left: 40%;
+        margin-top: -50px;
 
     }
 
     .heading-virtual {
         font-family: 'Livvic';
-        font-size: 35px;
+        font-size: 20px;
         font-weight: 700;
         line-height: 50px;
         letter-spacing: 0em;
         text-align: left;
-        margin-left: 27%;
+        margin-left:40%;
 
     }
 
     .girl-section {
-        flex: 0.8;
+        flex: 0.9;
     }
 }

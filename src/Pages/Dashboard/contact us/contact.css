@@ -1,139 +1,143 @@
-.contact-us-container{
-    width: 1440px;
-height: 373px;
-margin-top: 5%;
+.contact-us-container {
+    width: 90%;
+    height: 300px;
+    margin-top: 0%;
+    margin-left: 5%;
 
 }
 
-.social-media-logos{
+.social-media-logos {
     width: 140px;
-height: 40px;
-display: flex;
-justify-content: space-around;
-align-items: center;
-margin-top: 8%;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 8%;
 
 }
 
-.fb-img{
+.fb-img {
     width: 30px;
     height: 30px;
 
 }
 
-.twitter-img{
-    margin-top:10%;
+.twitter-img {
+    margin-top: 10%;
     width: 30px;
     height: 30px;
 }
 
-.contact-first-col p{
-    font-family: Inter;
+.contact-first-col p {
+    font-family: 'Inter', sans-serif;
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 300;
     line-height: 24px;
     letter-spacing: 0em;
     text-align: left;
     margin-top: 5%;
-    
+    -webkit-text-stroke: 0.4px;
 }
 
-.address-parent{
-    width: 450px;
+.address-parent {
     display: flex;
     justify-content: space-around;
     margin-top: 5%;
+    font-family: 'Rubik', sans-serif;
+    font-size: 13px;
+    width: 249px;
+    height: 43px;
+    opacity: 90%;
+    font-weight: 400;
 }
-.email-parent{
-    width: 200px;
+
+.email-parent {
+    width: 249px;
     display: flex;
     justify-content: space-around;
     margin-top: 5%;
+    font-family: 'Rubik', sans-serif;
+    font-size: 13px;
+    width: 249px;
+    height: 43px;
+    opacity: 90%;
+    font-weight: 400;
 
 }
 
-.phone-parent{
-    width: 150px;
+.phone-parent {
     display: flex;
     justify-content: space-around;
     margin-top: 5%;
+    font-family: 'Rubik', sans-serif;
+    font-size: 13px;
+    width: 249px;
+    height: 43px;
+    opacity: 90%;
+    font-weight: 400;
 
 }
 
-.address-parent-img{
+.address-parent-img {
     width: 16.88px;
-height: 24.01px;
+    height: 24.01px;
 
 }
 
-.email-parent-img{
+.email-parent-img {
     width: 16.88px;
-height: 24.01px;
+    height: 24.01px;
+    margin-left: 2%;
 
 }
 
-.phone-parent-img{
+.phone-parent-img {
     width: 16.88px;
-height: 24.01px;
+    height: 24.01px;
+    margin-left: 2%;
 
 }
 
 .About-Atricent ul li {
     margin-top: 4%;
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    opacity: 90%;
+
+}
+
+.privacy-policy {
+    font-family: 'Rubik';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #282828;
+
 }
 
 @media (max-width: 768px) {
     .contact-us-container {
-      margin-top: 30%;
+        margin-top: 90%;
+        height: 300px;
     }
 
-    .contact-first-col{
+    .contact-first-col {
         width: 100%;
-        /* border:  1px solid rebeccapurple; */
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    .social-media-logos{
-    margin-top: 0%;
-    
+
+    .social-media-logos {
+        margin-top: 0%;
+
     }
-  }
+}
 
 
-  @media (max-width: 768px) {
-    .contact-us-container {
-      margin-top: 30%;
-    }
-
-    .contact-first-col{
-        width: 100%;
-        /* border:  1px solid rebeccapurple; */
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .social-media-logos{
-    margin-top: 0%;
-    
-    }
-  }
-
-  
-  @media (max-width: 415px) {
-    .contact-us-container {
-      margin-top: 1%;
-    }
-
-    .contact-first-col{
-        width: 100%;
-        /* border:  1px solid rebeccapurple; */
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .social-media-logos{
-    margin-top: 0%;
-    
-    }
-  }

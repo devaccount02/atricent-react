@@ -1,12 +1,13 @@
-@media (max-width: 768px) {
+
+/* @media (max-width: 768px) {
     .navbar-brand-web {
         display: none;
     }
-}
+} */
 
 /* Show the mobile NavbarBrand on screens smaller than md */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     .navbar-brand-mobile {
         display: block;
     }
-}
+} */

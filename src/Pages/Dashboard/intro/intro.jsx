@@ -6,7 +6,7 @@ import './intro.css'
 
 const Intro = () => {
     return (
-        <Container style={{ height: '100vh', width: '100%', marginTop: '5vh' }}>
+        <Container style={{ height: '90vh', width: '100%', marginTop: '5vh' }}>
             <Col>
                 <Row className='intro-div'>
                     <h2 className='intotxt'>Introducing Atricent:</h2>
