@@ -1,7 +1,8 @@
  .coustmer-container {
      background-image: url('../../../assets/images/Subtract.svg');
-     height: 770px;
+     height: 720px;
      margin-top: 15vh;
+     background-size: 100% 100%;
  }
 
  .first-row {
@@ -14,13 +15,14 @@
 
  .coustmer-header {
      color: white;
-     margin-top: 4%;
-     margin-left: 4%;
+     margin-top: 8%;
+     margin-left: 10%;
      font-family: 'Livvic';
-     font-size: 76px;
+     font-size: 60px;
      font-weight: 700;
      line-height: 87px;
      text-align: left;
+     -webkit-text-stroke: 3px;
  }
 
  .second-column {
@@ -41,13 +43,18 @@
 
 
  .second-row {
-     height: 55vh;
+     height: 40vh;
      margin-top: 1%;
+     /* border: 1px solid red; */
+     width: 95%;
+     margin-left: 10%;
  }
 
  .third-column {
      height: 100%;
      margin-top: 1px;
+     display: flex;
+     flex-direction: column;
  }
 
  .third-column-first-col {
@@ -59,10 +66,12 @@
  .third-column-first-col p {
      color: #D9D9D9;
      font-family: Livvic;
-     font-size: 76px;
+     font-size: 88px;
      font-weight: 700;
      line-height: 87px;
      letter-spacing: 0em;
+     margin-left: 100%;
+     margin-top: 15%;
 
  }
 
@@ -72,18 +81,25 @@
      margin-left: 5%;
  }
 
+ .third-col-border{
+    height: 100%;
+    width: 1%;
+    border-left: 1px solid #ffffff;
+ }
+
  .third-column-second-col p {
      font-family: Livvic;
-     font-size: 29px;
+     font-size: 20px;
      font-weight: 400;
      line-height: 33px;
      letter-spacing: 0em;
      text-align: left;
      color: #D9D9D9;
+     margin-left: 45px;
  }
 
  .third-column-third-col {
-     width: 40%;
+     width: 45%;
      height: 100px;
  }
 
@@ -91,6 +107,16 @@
      display: flex;
      justify-content: space-between;
      align-items: center;
+     margin-left: 20%;
+ }
+ 
+
+ .Antoni{
+    margin-left: 15%;
+ }
+
+ .Leo{
+    margin-right: 35%;
  }
 
 
@@ -118,7 +144,7 @@
 
  .custom-prev-arrow {
      position: absolute;
-     right: 15%;
+     right: 17%;
      top: 90%;
      color: white;
      width: 53px;
@@ -133,7 +159,7 @@
 
  .custom-next-arrow {
      position: absolute;
-     right: 8%;
+     right: 10%;
      top: 90%;
      color: white;
      width: 53px;
@@ -152,8 +178,9 @@
      .coustmer-container {
 
          background-image: none;
-         background-color: black;
+         background-color: rgb(27, 25, 25);
          height: 100vh;
+         width: 100%;
          margin-top: 1vh;
          border-radius: 5%;
      }
@@ -177,24 +204,27 @@
          line-height: 40px;
          text-align: left;
          width: 40%;
+         padding: 40px 20px;
      }
 
      .second-column {
          height: 1%;
+
      }
+     
 
      .second-column-p {
-         margin-top: 1%;
-         color: #ffffff;
+         margin-top: 0%;
+         color: #D9D9D9;
          font-family: Livvic;
-         font-size: 11px;
+         font-size:16px;
          font-weight: 100;
          line-height: 15px;
          letter-spacing: 0em;
          text-align: left;
          margin-top: -20%;
          margin-left: 40%;
-         width: 60%;
+         width: 50%;
      }
 
 
@@ -211,7 +241,7 @@
      .third-column-first-col {
          width: 30px;
          height: 30px;
-
+         padding-top: 10px;
 
      }
 
@@ -222,6 +252,7 @@
          font-weight: 700;
          line-height: 47px;
          letter-spacing: 0em;
+         padding-top: 68px;
 
      }
 
@@ -229,6 +260,7 @@
          width: 100%;
          height: 80px;
          margin-left: 5%;
+         padding-top: 80px;
 
 
      }
@@ -244,8 +276,9 @@
      }
 
      .third-column-third-col {
-         width: 50%;
-         height: 90px;
+         width: 70%;
+         height: 100px;
+         padding-top:120px;
 
      }
 
@@ -278,128 +311,4 @@
          display: none;
 
      }
- }
-
-
-
- @media (max-width: 415px) {
-     .coustmer-container {
-         background-image: url('../../../assets/images/Subtract.svg');
-         height: 100vh;
-         width: 100%;
-         margin-top: 15vh;
-     }
-
-     .first-row {
-         height: 20vh;
-
-     }
-
-     .first-column {
-         height: 100%;
-         width: 50%;
-
-     }
-     .coustmer-header {
-        color: white;
-        margin-top: 7%;
-        margin-left: 7%;
-        font-family: 'Livvic';
-        font-size: 30px;
-        font-weight: 700;
-        line-height: 40px;
-        text-align: left;
-
-    }
-   
-    .second-column {
-        height: 260px;
-
-    }
-   
-    .second-column-p {
-        
-        display: none;
-
-    }
-
-  
-   
-    .second-row {
-        height: 30%;
-    }
-   
-    .third-column {
-        height: 100%;
-
-    }
-   
-    .third-column-first-col {
-        width: 40px;
-        height: 65px;
-        margin-top: 2%;
-
-   
-    }
-
-    .third-column-first-col p {
-        color: #D9D9D9;
-        font-family: Livvic;
-        font-size: 46px;
-        font-weight: 700;
-        line-height:200px;
-        letter-spacing: 0em;
-   
-    }
-
-    .third-column-second-col {
-        width: 574px;
-        height: 202px;
-        margin-left: 5%;
-        margin-top: 5%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-    }
-
-    .third-column-second-col p {
-        font-family: Livvic;
-        width: 70%;
-        font-size: 20px;
-        font-weight: 400;
-        line-height: 20px;
-        letter-spacing: 0em;
-        text-align: left;
-        color: #D9D9D9;
-        margin-right: 30%;
-
-    }
-   
-    .third-column-third-col {
-        width: 100%;
-        height: 150px;
-        margin-top: -10%;
-        display: flex;
-        justify-content: space-evenly;
-        align-items: flex-start;
-
-    }
-   
-    .image-div {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-   
-   
-   
-    .third-column-third-col p {
-        color: #D9D9D9;
-        font-family: Livvic;
-        font-size: 20px;
-        font-weight: 400;
-    }
-
-    
  }

@@ -1,25 +1,30 @@
+.main-email-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
 .email-container {
-    width: 1320px;
-    height: 417px;
+    width: 85%;
+    height: 50vh;
     border-radius: 50px;
     margin-top: 5%;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url('../../../assets/images/Rectangle\ 18916.png');
+    background-image: url('../../../assets/images/Rectangle\ 18828.png');
     background-color: gray;
     background-blend-mode: multiply;
-    background-size: 100% 100%;
-
+    background-size: 100% 100%; 
 }
 
 .main-email-row {
-    width: 953px;
-    height: 277px;
+    width: 80%;
+    height: 60%;
     display: flex;
     justify-content: center;
     color: wheat;
-
 
 }
 
@@ -33,12 +38,12 @@
 
 .main-email-row-first h1 {
     font-family: Livvic;
-    font-size: 49px;
+    font-size: 40px;
     font-weight: 700;
-    line-height: 87px;
+    /* line-height: 87px; */
     letter-spacing: 0em;
-    text-align: left;
-
+    text-align: center;
+    -webkit-text-stroke: 1px;
     /* color: white; */
 
 }
@@ -53,9 +58,9 @@
 
 .main-email-row-second p {
     font-family: Livvic;
-    font-size: 22px;
+    font-size: 19px;
     font-weight: 400;
-    line-height: 33px;
+    /* line-height: 33px; */
     letter-spacing: 0em;
     text-align: center;
     color: white;
@@ -65,44 +70,53 @@
 }
 
 .main-email-row-third {
-    height: 60px;
-    width: 100%;
-    /* border: 2px solid rgb(12, 81, 102); */
+    height: 50px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
 }
 
 .email-placeholder {
-    width: 30%;
+    width: 40%;
     border-radius: 70px;
     background-color: aliceblue;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* border: 2px solid rgb(31, 148, 70); */
+    margin-top: 8px;
 
 }
 
 .email-txt {
     color: black;
     font-family: Livvic;
-    font-size: 25px;
+    font-size: 18px;
     font-weight: 500;
-    margin-left: 5%;
+    margin-left: 6%;
+    margin-top: 3%;
 }
 
 .email-btn {
     width: 121px;
-    height: 50px;
+    height: 35px;
     border-radius: 70px;
     background-color: black;
     color: white;
+    margin-right: 2%;
 
 }
 
 
 @media (max-width: 768px) {
+    .main-email-container{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 20px;
+    }
     .email-container {
         width: 100%;
-        height: 40vh;
+        height: 30vh;
         border-radius: 50px;
         margin-top: 10%;
         display: flex;
@@ -115,11 +129,29 @@
     
     }
 
+    .main-email-row {
+        width: 90%;
+        height: 70%;
+        display: flex;
+        justify-content: center;
+        color: wheat;
+    
+    }
+    
+
+    .main-email-row-first {
+        height: 20%;
+        width: 100%;
+        text-align: center;
+        /* border: 2px solid rgb(49, 45, 110); */
+    
+    }
+
     .main-email-row-first h1 {
         font-family: Livvic;
-        font-size: 30px;
+        font-size: 25px;
         font-weight: 400;
-        line-height: 100px;
+        line-height: 25px;
         letter-spacing: 0em;
         text-align: center;
     
@@ -128,7 +160,7 @@
 
     
 .main-email-row-second {
-    height: 30%;
+    height: 35%;
     width: 100%;
     /* border: 2px solid rgb(173, 33, 143); */
 
@@ -139,29 +171,30 @@
     font-family: Livvic;
     font-size: 17px;
     font-weight: 100;
-    line-height: 30px;
+    line-height: 20px;
     letter-spacing: 0em;
     text-align: center;
     color: white;
+    padding-top: 15px;
 
 }
 
 .main-email-row-third {
     height: 50px;
     width: 50%;
-    /* border: 2px solid rgb(12, 81, 102); */
-    margin-top: -5%;
+    padding-top: 15px;
+
+    margin-top: 0%;
 }
 
 .email-placeholder {
-    width: 50%;
+    width: 70%;
     height: 30px;
-    border-radius: 70px;
+    border-radius: 50px;
     background-color: aliceblue;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* border: 2px solid rgb(31, 148, 70); */
 
 }
 
@@ -170,8 +203,12 @@
     font-family: Livvic;
     font-size: 16px;
     font-weight: 100;
-    margin-left: 5%;
-    margin-top: 2%;
+    margin-left: 0%;
+    margin-top: 0%;
+    padding-top: 10px;
+    padding-left: 10px;
+
+
 }
 
 .email-btn {
@@ -183,28 +220,4 @@
     font-size: smaller;
 
 }
-}
-
-@media (max-width: 415px) {
-    .main-email-row-first h1 {
-        font-family: Livvic;
-        font-size: 30px;
-        font-weight: 400;
-        line-height: 30px;
-        letter-spacing: 0em;
-        text-align: center;
-    
-    
-    }
-
-    .main-email-row-second p {
-        font-family: Livvic;
-        font-size: 17px;
-        font-weight: 100;
-        line-height: 18px;
-        letter-spacing: 0em;
-        text-align: center;
-        color: white;
-    
-    }
 }
